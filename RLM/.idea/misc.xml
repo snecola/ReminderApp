@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/drawable-anydpi/ic_calender.xml" value="0.2640625" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/drawable-anydpi/ic_clock.xml" value="0.2640625" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/drawable-anydpi/ic_newlistIcon.xml" value="0.2" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2604166666666667" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_create_reminder.xml" value="0.264" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_reminder_newlist.xml" value="0.17300724637681159" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_reminder_repeating.xml" value="0.264" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_view_list.xml" value="0.264" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/all_reminders.xml" value="0.2" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/create_reminder.xml" value="0.264" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/reminder_newlist.xml" value="0.264" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/reminder_repeating.xml" value="0.264" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/menu/prioritypopup_menu.xml" value="0.24375" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2604166666666667" />
+        <entry key="..\:/Repo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2604166666666667" />
+        <entry key="..\:/Steven/College/2021 Fall Semester/370-Abreu/TeamRepo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_create_reminder.xml" value="0.34057971014492755" />
+        <entry key="..\:/Steven/College/2021 Fall Semester/370-Abreu/TeamRepo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_edit_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Steven/College/2021 Fall Semester/370-Abreu/TeamRepo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_edit_reminder.xml" value="0.25" />
+        <entry key="..\:/Steven/College/2021 Fall Semester/370-Abreu/TeamRepo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Steven/College/2021 Fall Semester/370-Abreu/TeamRepo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_reminder_newlist.xml" value="0.34057971014492755" />
+        <entry key="..\:/Steven/College/2021 Fall Semester/370-Abreu/TeamRepo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_view_list.xml" value="0.33" />
+        <entry key="..\:/Steven/College/2021 Fall Semester/370-Abreu/TeamRepo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_view_reminder.xml" value="0.33" />
+        <entry key="..\:/Steven/College/2021 Fall Semester/370-Abreu/TeamRepo/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Steven/College/2021 Fall Semester/370-Abreu/TeamRepo/370Fall21Sec36Team3/GroupProject/RLM/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/heals/Desktop/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/heals/Desktop/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/create_list.xml" value="0.33" />
+        <entry key="..\:/Users/heals/Desktop/370Fall21Sec36Team3/GroupProject/GLM/app/src/main/res/layout/create_reminder.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

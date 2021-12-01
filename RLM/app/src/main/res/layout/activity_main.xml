@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/reminderTitle"
+        android:layout_width="178dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Reminders"
+        android:textColor="#070707"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reminderSearch"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/myListTitle"
+        android:layout_width="111dp"
+        android:layout_height="49dp"
+        android:fontFamily="sans-serif-black"
+        android:text="My Lists"
+        android:textColor="#090909"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/todayButton"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <SearchView
+        android:id="@+id/reminderSearch"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <Button
+        android:id="@+id/newReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:fontFamily="sans-serif-black"
+        android:minHeight="48dp"
+        android:onClick="launchNewReminderActivity"
+        android:text="+ NEW REMINDER"
+        android:textAllCaps="false"
+        android:textColor="#1976D2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/newListButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:fontFamily="sans-serif-black"
+        android:minHeight="48dp"
+        android:onClick="launchNewListActivity"
+        android:text="ADD LIST"
+        android:textColor="#1976D2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.8" />
+
+<!--    <ScrollView-->
+<!--        android:id="@+id/scrollableListView"-->
+<!--        android:layout_width="356dp"-->
+<!--        android:layout_height="285dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.555"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/myListTitle"-->
+<!--        app:layout_constraintVertical_bias="0.0"-->
+<!--        tools:ignore="SpeakableTextPresentCheck">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical" />-->
+<!--    </ScrollView>-->
+
+<!--    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="355dp"
+        android:layout_height="287dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myListTitle"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context=".MainActivity" />-->
+
+<!--    <LinearLayout
+        android:id="@+id/listView"
+        android:layout_width="363dp"
+        android:layout_height="287dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myListTitle"
+        app:layout_constraintVertical_bias="0.0" >
+    </LinearLayout>-->
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="359dp"
+        android:layout_height="298dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myListTitle"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/todayButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00000000"
+        android:onClick="launchViewListActivity"
+        android:text="Today"
+        android:textColor="#1976D2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reminderTitle"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <Button
+        android:id="@+id/allButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00000000"
+        android:onClick="launchViewListActivity"
+        android:text="All"
+        android:textColor="#1976D2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reminderTitle"
+        app:layout_constraintVertical_bias="0.019" />
+
+<!--    <Button-->
+<!--        android:id="@+id/searchButton"-->
+<!--        android:layout_width="86dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:backgroundTint="#00000000"-->
+<!--        android:text="Search"-->
+<!--        android:textColor="#1976D2"-->
+<!--        android:textSize="12sp"-->
+<!--        android:onClick="searchButtonListener"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.407"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/reminderSearch"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.038" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
